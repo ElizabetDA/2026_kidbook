@@ -140,24 +140,6 @@ graph TD
 
 Для работы с падежами используется библиотека `pymorphy3`.
 
-## Как запустить
-
-```bash
-# 1. Установить зависимости
-pip install -r requirements.txt
-
-# 2. Создать файл .env и задать ключ авторизации GigaChat
-#    (получить на https://developers.sber.ru/studio/)
-
-# 3. Извлечь данные из WikiData
-python wikidata_extract.py
-
-# 4. Сгенерировать статьи через GigaChat
-python generate_pages.py
-
-# 5. Расставить перекрёстные ссылки
-python crosslink.py
-```
 
 ## Участники группы
 
